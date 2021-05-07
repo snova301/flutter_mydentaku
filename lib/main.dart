@@ -112,6 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final Size dispsize = MediaQuery.of(context).size;
     // print(dispsize);
 
+// for mobile
     final double _btSizeWidth = (dispsize.width ~/ 4.4).toDouble();
     final double _btSizeHeight = _btSizeWidth;
     final double _btSizePadding = (dispsize.width ~/ 50).toDouble();
