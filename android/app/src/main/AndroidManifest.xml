@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mydentaku1">
+    package="jp.esunowba.simplebottomdentaku">
    <application
         android:label="Simple Bottom Dentaku"
         android:icon="@mipmap/launcher_icon">
