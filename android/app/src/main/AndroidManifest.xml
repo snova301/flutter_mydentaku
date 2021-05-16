@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mydentaku1">
+    package="com.github.snova301.mydentaku">
+    <!-- package="com.example.mydentaku1"> -->
    <application
         android:label="mydentaku1"
         android:icon="@mipmap/launcher_icon">
