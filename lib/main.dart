@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Dentaku',
+      title: 'Simple Bottom Dentaku',
       theme: ThemeData(
           primarySwatch: Colors.blueGrey,
           scaffoldBackgroundColor: Colors.grey[800]),
-      home: MyHomePage(title: 'This is dentaku'),
+      home: MyHomePage(title: 'Simple Bottom Dentaku'),
     );
   }
 }
@@ -112,6 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final Size dispsize = MediaQuery.of(context).size;
     // print(dispsize);
 
+// for mobile
     final double _btSizeWidth = (dispsize.width ~/ 4.4).toDouble();
     final double _btSizeHeight = _btSizeWidth;
     final double _btSizePadding = (dispsize.width ~/ 50).toDouble();
@@ -123,14 +124,14 @@ class _MyHomePageState extends State<MyHomePage> {
     final colorBtBoxNum = Colors.blueGrey[700];
     final colorBtTextNum = Colors.white;
     final colorBtBorder = Colors.white54;
-    final colorContainer = Colors.grey[700];
+    // final colorContainer = Colors.grey[700];
 
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
           backgroundColor: Colors.green[900],
           title: const Text(
-            'Bottom Calculator',
+            'Simple Bottom Calculator',
             textAlign: TextAlign.center,
           ),
         ),
